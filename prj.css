@@ -1,0 +1,177 @@
+.titre
+{
+ font-size: 2.5rem;
+ font-style: bold ;
+ margin-left: 5%;
+ margin-right: 5%;
+ display: block;
+
+}
+.titre::before,.titre::after
+{
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #000;
+    width: 1em;
+    vertical-align: middle;
+}
+.liste-etudiants
+{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.with-line {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  .with-line:before,
+  .with-line:after {
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #000;
+    width: 1em;
+    vertical-align: middle;
+    
+    margin: 0 0.5em;
+  }
+.mi
+{
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.part1
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.part2
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.pic2
+{
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.part3
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.P3 
+{
+    margin-left: 40%;
+}
+.pic33 
+{
+    
+    height: 500px; 
+   
+}
+.p31
+{
+    display: flex;
+    flex-direction: row;
+ 
+   
+}
+.p32
+{
+    width: 60%;
+}
+.p33 
+{
+    width: 40%;
+}
+.part4
+{
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+}
+.pic4
+{
+   margin: 2% 20% 2% 20% ;
+   height: 20%;
+   width: 50%;
+}
+.exemple
+{
+    width: 100%;
+
+}
+.P2 
+{
+margin : 4% 35% 4% 35%;
+
+}
+
+
+.part5
+{
+display: flex;
+flex-direction: row;
+/* justify-content: space-around; */
+}
+
+
+
+
+
+.ch
+{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+}
+.ch::after,
+.ch::before
+{
+    content: "";
+    display: inline-block;
+    border-top: 2px solid brown;
+    width: 1em;
+    vertical-align: middle;
+}
+body
+{
+   
+     font-family: Georgia, serif;
+     font-weight: 500;
+   
+}
+.fin
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.finito
+{
+    height: 20%;
+  width: 50%;
+  margin-left: 25%;
+}
+.rsm
+{
+    color: rgba(105, 43, 43, 0.719);
+}
+.rsm::after, .rsm::before
+{
+    content: "";
+    display: inline-block;
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 1.4rem;
+    vertical-align: middle;
+}
